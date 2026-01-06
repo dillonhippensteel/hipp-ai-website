@@ -6,9 +6,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Hipp AI landing page - a static marketing website for an AI automation consulting business. No build tools or dependencies required.
 
+## Live Site
+
+- **Production URL:** https://hippaihq.com
+- **Vercel URL:** https://hipp-ai-website.vercel.app
+
+## Deployment
+
+The site auto-deploys via Vercel when changes are pushed to GitHub.
+
+**Workflow:** Edit locally → `git push` → Vercel auto-deploys → Live on hippaihq.com
+
+**GitHub repo:** https://github.com/dillonhippensteel/hipp-ai-website
+
 ## Development
 
-To view the site, open `index.html` in a browser. No server or build step needed.
+To view the site locally, open `index.html` in a browser. No server or build step needed.
 
 ## Architecture
 
@@ -27,6 +40,12 @@ To view the site, open `index.html` in a browser. No server or build step needed
 
 Comments marked `CALENDLY_PLACEHOLDER` in index.html indicate where to replace `#contact` links with a Calendly scheduling URL when ready.
 
+## Screenshots
+
+Save screenshots to `screenshots/` folder for Claude Code to analyze. This folder is gitignored (not uploaded to GitHub).
+
 ## Contact
 
 Business email: dillon@hippaihq.com
+Domain registrar: Namecheap
+Hosting: Vercel (connected to GitHub)

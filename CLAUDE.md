@@ -19,6 +19,8 @@ The site auto-deploys via Vercel when changes are pushed to GitHub.
 
 **GitHub repo:** https://github.com/dillonhippensteel/hipp-ai-website
 
+**Note:** Ask the user if they want to push to GitHub after completing meaningful changes (features, fixes, updates).
+
 ## Development
 
 To view the site locally, open `index.html` in a browser. No server or build step needed.

@@ -1,0 +1,13 @@
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Screenshots (local only)
+screenshots/
+
+# Environment variables (for future use)
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db

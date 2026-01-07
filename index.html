@@ -201,5 +201,26 @@
 
   <!-- Scripts -->
   <script src="script.js"></script>
+
+  <!-- n8n Chat Widget -->
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+  <script type="module">
+    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+    createChat({
+      webhookUrl: 'https://dillonhippensteel12.app.n8n.cloud/webhook/hipp-ai-chat/chat',
+      initialMessages: [
+        'Hi! I\'m the Hipp AI assistant. What brings you here today?'
+      ],
+      i18n: {
+        en: {
+          title: 'Hipp AI',
+          subtitle: 'Custom AI Automation',
+          footer: '',
+          getStarted: 'Start Chat',
+          inputPlaceholder: 'Type your message...',
+        },
+      },
+    });
+  </script>
 </body>
 </html>

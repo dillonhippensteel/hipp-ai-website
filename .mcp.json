@@ -7,8 +7,8 @@
                 "n8n-mcp"
             ],
             "env": {
-                "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhMzQ3NmNkNi0xYTgwLTQyNjItOTY5Ny03MGI4MWQ5NmYwOGQiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzY4MDgzMTQ2LCJleHAiOjE3NzA2MTMyMDB9.CMrXktNZasmVFNzTzT6WyQGJ75LKOc9miV9jw0YYZK0",
-                "N8N_HOST": "https://dillonhippensteel12.app.n8n.cloud"
+                "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MTQ3YmJhNy1kMDk3LTRkNTMtYjc2Mi1kMzc0YjIwMTc1MjgiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzY4MTE1MjE3LCJleHAiOjE3NzA2OTk2MDB9.uYIbRrncRh9k4ILXrFvqJbMXyI1jT-CvQG_NOhPPzTk",
+                "N8N_HOST": "https://hippai.app.n8n.cloud"
             }
         }
     }

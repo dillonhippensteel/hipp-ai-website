@@ -40,9 +40,23 @@ Your n8n tools are configured in `~/Projects`.
 - **n8n-skills**: The "brain" for building workflows.
 - **Config**: `.mcp.json` is located in `~/Projects/hipp-ai-website/.mcp.json`.
 
-### How to use n8n Skills
-When you want to build a workflow, you can ask for help like:
-> "Help me build a lead qualification workflow using the n8n skills."
+### How to use n8n Skills (The Hybrid Workflow)
+We have set up a "Specialist" workflow for you:
+
+**1. Use Antigravity (Me) for:**
+- The Website (HTML/CSS/JS).
+- Project Management & Git.
+- Fixing general errors.
+
+**2. Use Claude Code (Terminal) for:**
+- **n8n Workflows**: Because we installed specific `n8n-skills` that are optimized for Claude.
+- **Deep Backend Logic**: Dealing with complex API integrations.
+
+**To start Claude Code:**
+1. Open a terminal.
+2. Type `claude` and hit Enter.
+3. Ask it: *"Help me build a lead qualification workflow."*
+*(It will read the `.mcp.json` file we created and load your n8n tools automatically).*
 
 ### Security
 - **API Key**: If you ever need to change your n8n key, edit `.mcp.json`.
